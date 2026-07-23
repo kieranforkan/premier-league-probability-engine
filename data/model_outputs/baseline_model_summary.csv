@@ -1,0 +1,21 @@
+Field,Value
+Selected model,Tuned Multinomial Logistic Regression
+Regularisation parameter C,0.01
+Class weighting,None
+Training seasons,"2015-16, 2016-17, 2017-18, 2018-19, 2019-20, 2020-21, 2021-22, 2022-23"
+Validation season,2023-24
+Test season,2024-25
+Predictor count,70
+Training fixtures,3040
+Validation fixtures,380
+Test fixtures,380
+Validation log loss,0.934551
+Validation Brier score,0.549322
+Validation accuracy,0.592105
+Test log loss,1.004062
+Test Brier score,0.60104
+Test accuracy,0.505263
+Uniform validation log loss,1.098612
+Historical validation log loss,1.054044
+Model probability order,"['H', 'D', 'A']"
+Model internal class order,"['A', 'D', 'H']"

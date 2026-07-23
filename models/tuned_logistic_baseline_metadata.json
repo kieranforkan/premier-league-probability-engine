@@ -1,0 +1,26 @@
+{
+    "model_name": "Tuned Multinomial Logistic Regression",
+    "selection_metric": "Validation Log Loss",
+    "best_C": 0.01,
+    "class_weight": null,
+    "class_order": [
+        "H",
+        "D",
+        "A"
+    ],
+    "model_internal_class_order": [
+        "A",
+        "D",
+        "H"
+    ],
+    "predictor_count": 70,
+    "training_fixtures": 3040,
+    "validation_fixtures": 380,
+    "test_fixtures": 380,
+    "validation_log_loss": 0.934551183181492,
+    "validation_brier_score": 0.5493221770438442,
+    "validation_accuracy": 0.5921052631578947,
+    "test_log_loss": 1.004062067581213,
+    "test_brier_score": 0.6010401299674676,
+    "test_accuracy": 0.5052631578947369
+}

@@ -1,0 +1,9 @@
+Model,Split,Fixtures,LogLoss,BrierScore,Accuracy,LogLossRank,BrierRank,AccuracyRank
+Tuned Logistic Regression,Validation,380,0.934551,0.549322,0.592105,1,1,1
+Multinomial Logistic Regression,Validation,380,0.941668,0.551312,0.589474,2,2,2
+Historical Frequency,Validation,380,1.054044,0.637099,0.460526,3,3,3
+Uniform Probability,Validation,380,1.098612,0.666667,0.460526,4,4,3
+Tuned Logistic Regression,Test,380,1.004062,0.60104,0.505263,1,1,1
+Multinomial Logistic Regression,Test,380,1.012463,0.604957,0.505263,2,2,1
+Historical Frequency,Test,380,1.080909,0.655601,0.407895,3,3,2
+Uniform Probability,Test,380,1.098612,0.666667,0.407895,4,4,2

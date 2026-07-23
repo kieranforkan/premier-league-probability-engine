@@ -1,0 +1,7 @@
+Split,ReferenceModel,ReferenceLogLoss,TunedLogLoss,LogLossImprovement,LogLossImprovementPercentage,ReferenceBrierScore,TunedBrierScore,BrierImprovement,BrierImprovementPercentage,ReferenceAccuracy,TunedAccuracy,AccuracyDifferencePercentagePoints,LowerLogLoss,LowerBrierScore
+Validation,Uniform Probability,1.098612,0.934551,0.164061,14.93348,0.666667,0.549322,0.117345,17.601741,0.460526,0.592105,13.1579,True,True
+Validation,Historical Frequency,1.054044,0.934551,0.119493,11.336624,0.637099,0.549322,0.087777,13.777608,0.460526,0.592105,13.1579,True,True
+Validation,Multinomial Logistic Regression,0.941668,0.934551,0.007117,0.755787,0.551312,0.549322,0.00199,0.360957,0.589474,0.592105,0.2631,True,True
+Test,Uniform Probability,1.098612,1.004062,0.09455,8.606314,0.666667,0.60104,0.065627,9.844045,0.407895,0.505263,9.7368,True,True
+Test,Historical Frequency,1.080909,1.004062,0.076847,7.109479,0.655601,0.60104,0.054561,8.322287,0.407895,0.505263,9.7368,True,True
+Test,Multinomial Logistic Regression,1.012463,1.004062,0.008401,0.829759,0.604957,0.60104,0.003917,0.647484,0.505263,0.505263,0.0,True,True

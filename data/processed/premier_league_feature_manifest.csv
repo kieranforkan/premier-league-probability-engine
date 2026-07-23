@@ -1,0 +1,80 @@
+Column,Role,DataType,MissingValues,MissingPercentage,UniqueValues
+Season,Identifier,str,0,0.0,10
+Date,Identifier,datetime64[us],0,0.0,1138
+HomeTeam,Identifier,str,0,0.0,34
+AwayTeam,Identifier,str,0,0.0,34
+FTHG,Excluded: post-match or market,int64,0,0.0,10
+FTAG,Excluded: post-match or market,int64,0,0.0,10
+FTR,Target,str,0,0.0,3
+HomeEloBefore,Eligible pre-match predictor,float64,0,0.0,3775
+AwayEloBefore,Eligible pre-match predictor,float64,0,0.0,3776
+HomeRollingPoints5,Eligible pre-match predictor,float64,502,13.21,15
+AwayRollingPoints5,Eligible pre-match predictor,float64,498,13.11,15
+HomeRollingGoalsFor5,Eligible pre-match predictor,float64,502,13.21,23
+HomeRollingGoalsAgainst5,Eligible pre-match predictor,float64,502,13.21,20
+HomeRollingGoalDifference5,Eligible pre-match predictor,float64,502,13.21,38
+HomeRollingWinRate5,Eligible pre-match predictor,float64,502,13.21,6
+AwayRollingGoalsFor5,Eligible pre-match predictor,float64,498,13.11,24
+AwayRollingGoalsAgainst5,Eligible pre-match predictor,float64,498,13.11,21
+AwayRollingGoalDifference5,Eligible pre-match predictor,float64,498,13.11,37
+AwayRollingWinRate5,Eligible pre-match predictor,float64,498,13.11,6
+HomeVenueRollingPoints5,Eligible pre-match predictor,float64,1000,26.32,15
+HomeVenueRollingGoalsFor5,Eligible pre-match predictor,float64,1000,26.32,24
+HomeVenueRollingGoalsAgainst5,Eligible pre-match predictor,float64,1000,26.32,23
+HomeVenueRollingGoalDifference5,Eligible pre-match predictor,float64,1000,26.32,39
+HomeVenueRollingWinRate5,Eligible pre-match predictor,float64,1000,26.32,6
+AwayVenueRollingPoints5,Eligible pre-match predictor,float64,1000,26.32,15
+AwayVenueRollingGoalsFor5,Eligible pre-match predictor,float64,1000,26.32,21
+AwayVenueRollingGoalsAgainst5,Eligible pre-match predictor,float64,1000,26.32,21
+AwayVenueRollingGoalDifference5,Eligible pre-match predictor,float64,1000,26.32,36
+AwayVenueRollingWinRate5,Eligible pre-match predictor,float64,1000,26.32,6
+HomePreviousMatchDate,Excluded: non-numeric,datetime64[us],100,2.63,1079
+HomeRestDays,Eligible pre-match predictor,float64,100,2.63,34
+AwayPreviousMatchDate,Excluded: non-numeric,datetime64[us],100,2.63,1075
+AwayRestDays,Eligible pre-match predictor,float64,100,2.63,35
+HomeShortRest3,Eligible pre-match predictor,float64,100,2.63,2
+AwayShortRest3,Eligible pre-match predictor,float64,100,2.63,2
+HomeMatchesLast7Days,Eligible pre-match predictor,int64,0,0.0,3
+HomeMatchesLast14Days,Eligible pre-match predictor,int64,0,0.0,5
+AwayMatchesLast7Days,Eligible pre-match predictor,int64,0,0.0,3
+AwayMatchesLast14Days,Eligible pre-match predictor,int64,0,0.0,5
+EloDifference,Eligible pre-match predictor,float64,0,0.0,3783
+PointsFormDifference5,Eligible pre-match predictor,float64,503,13.24,30
+GoalsForFormDifference5,Eligible pre-match predictor,float64,503,13.24,36
+GoalsAgainstFormDifference5,Eligible pre-match predictor,float64,503,13.24,31
+GoalDifferenceFormDifference5,Eligible pre-match predictor,float64,503,13.24,52
+WinRateFormDifference5,Eligible pre-match predictor,float64,503,13.24,19
+VenuePointsFormDifference5,Eligible pre-match predictor,float64,1016,26.74,30
+VenueGoalsForFormDifference5,Eligible pre-match predictor,float64,1016,26.74,35
+VenueGoalsAgainstFormDifference5,Eligible pre-match predictor,float64,1016,26.74,33
+VenueGoalDifferenceFormDifference5,Eligible pre-match predictor,float64,1016,26.74,50
+VenueWinRateFormDifference5,Eligible pre-match predictor,float64,1016,26.74,19
+RestDaysDifference,Eligible pre-match predictor,float64,102,2.68,36
+ShortRestDifference3,Eligible pre-match predictor,float64,102,2.68,3
+MatchesLast7DaysDifference,Eligible pre-match predictor,int64,0,0.0,5
+MatchesLast14DaysDifference,Eligible pre-match predictor,int64,0,0.0,7
+AwayMatchWeek,Eligible pre-match predictor,int64,0,0.0,38
+HomeMatchWeek,Eligible pre-match predictor,int64,0,0.0,38
+HomeSeasonProgress,Eligible pre-match predictor,float64,0,0.0,38
+AwaySeasonProgress,Eligible pre-match predictor,float64,0,0.0,38
+AverageSeasonProgress,Eligible pre-match predictor,float64,0,0.0,82
+SeasonProgressDifference,Eligible pre-match predictor,float64,0,0.0,18
+MatchesPlayedDifference,Eligible pre-match predictor,int64,0,0.0,8
+SecondHalfSeason,Eligible pre-match predictor,int64,0,0.0,2
+HomePointsBefore,Eligible pre-match predictor,int64,0,0.0,94
+AwayPointsBefore,Eligible pre-match predictor,int64,0,0.0,95
+HomeGoalDifferenceBefore,Eligible pre-match predictor,int64,0,0.0,127
+AwayGoalDifferenceBefore,Eligible pre-match predictor,int64,0,0.0,129
+HomeLeaguePosition,Eligible pre-match predictor,Int64,24,0.63,20
+AwayLeaguePosition,Eligible pre-match predictor,Int64,24,0.63,20
+PointsDifference,Eligible pre-match predictor,int64,0,0.0,118
+PositionDifference,Eligible pre-match predictor,Int64,24,0.63,38
+GoalDifferenceDifference,Eligible pre-match predictor,int64,0,0.0,175
+HomeTop4Before,Eligible pre-match predictor,Int64,24,0.63,2
+HomeTop6Before,Eligible pre-match predictor,Int64,24,0.63,2
+HomeTopHalfBefore,Eligible pre-match predictor,Int64,24,0.63,2
+HomeBottom3Before,Eligible pre-match predictor,Int64,24,0.63,2
+AwayTop4Before,Eligible pre-match predictor,Int64,24,0.63,2
+AwayTop6Before,Eligible pre-match predictor,Int64,24,0.63,2
+AwayTopHalfBefore,Eligible pre-match predictor,Int64,24,0.63,2
+AwayBottom3Before,Eligible pre-match predictor,Int64,24,0.63,2
