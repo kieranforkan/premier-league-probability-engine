@@ -1,0 +1,2 @@
+Market,HomeOddsColumn,DrawOddsColumn,AwayOddsColumn,ExplicitClosingOdds,SeasonsPresent,TotalCompleteRows,TotalValidOddsRows,MinimumSeasonCoverage,MaximumSeasonCoverage,CompleteAcrossAllSeasons,CompleteForAllFixtures
+PinnacleClosing,PSCH,PSCD,PSCA,True,10,3800,3800,380,380,True,True

@@ -1,0 +1,2 @@
+Bets,BettingDates,WinningBets,FinalProfitUnits,ObservedROI,MaximumDrawdownUnits,DrawdownPeakDate,MaximumDrawdownDate,Bootstrap95LowerROI,Bootstrap95UpperROI,BootstrapProbabilityPositiveROI
+180,141,36,11.599999999999998,0.06444444444444443,26.380000000000003,2022-04-04,2023-08-26,-0.25272810931399886,0.4024902583902583,0.6347

@@ -1,0 +1,38 @@
+{
+    "notebook": "08_bookmaker_comparison.ipynb",
+    "status": "Complete",
+    "forecast_quality": {
+        "model_log_loss": 0.985002,
+        "pinnacle_closing_log_loss": 0.952379,
+        "relative_model_disadvantage_percent": 3.42534,
+        "conclusion": "The Pinnacle closing market produced lower out-of-sample log loss than the model."
+    },
+    "chronological_strategy": {
+        "bets": 180,
+        "profit_units": 11.6,
+        "roi_percent": 6.44444,
+        "maximum_drawdown_units": 26.38,
+        "bootstrap_roi_interval_percent": [
+            -25.27,
+            40.25
+        ],
+        "conclusion": "Observed profitability was positive, but the uncertainty interval included zero."
+    },
+    "fractional_kelly": {
+        "flat_stake_final_bankroll": 111.6,
+        "quarter_kelly_final_bankroll": 114.044232,
+        "half_kelly_final_bankroll": 96.719852,
+        "conclusion": "Increasing Kelly exposure amplified estimation error and drawdown risk. Half Kelly lost money."
+    },
+    "closing_line_value": {
+        "selected_bets": 215,
+        "mean_price_clv_percent": 0.11,
+        "bets_beating_close_percent": 49.77,
+        "bootstrap_interval_percent": [
+            -1.62,
+            1.91
+        ],
+        "conclusion": "There was no statistically reliable evidence of persistent positive closing-line value."
+    },
+    "overall_conclusion": "The model captured useful football structure and occasionally produced profitable historical betting sequences, but it did not outperform the Pinnacle closing market on probability quality and did not demonstrate a stable informational pricing edge."
+}

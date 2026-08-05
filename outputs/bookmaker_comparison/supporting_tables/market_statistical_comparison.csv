@@ -1,0 +1,2 @@
+Fixtures,MatchDatesCompared,SeasonsCompared,ModelLogLoss,MarketLogLoss,MeanModelMinusMarketLoss,MarketRelativeImprovementPercent,SeasonsMarketLowerLoss,PairedTStatistic,PairedTPValue,WilcoxonStatistic,WilcoxonPValue,Bootstrap95Lower,Bootstrap95Upper,BootstrapProbabilityMarketBetter,BootstrapCIExcludesZero
+1900,604,5,0.9850017226023103,0.952379490945397,0.032622231656913435,3.3118958990982903,5,5.370344566551416,1.1233314969747487e-07,71393.0,3.276965124852292e-06,0.022343734797131275,0.043163158342140885,1.0,True

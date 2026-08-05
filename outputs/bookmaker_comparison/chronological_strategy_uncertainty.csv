@@ -1,0 +1,2 @@
+EvaluationSeasons,ObservedBets,ObservedProfit,ObservedROI,BootstrapRepetitions,BootstrapMeanProfit,BootstrapMedianProfit,BootstrapMeanROI,BootstrapMedianROI,Bootstrap95LowerROI,Bootstrap95UpperROI,BootstrapProbabilityPositiveROI,MeanMarketOverround,BootstrapProbabilityROIAboveOverround,BootstrapCIExcludesZero
+4,180,11.599999999999998,0.06444444444444443,10000,11.581282,10.854999999999997,0.06352969414316505,0.0605519832137539,-0.25272810931399886,0.4024902583902583,0.6347,0.026444909013460468,0.5785,False

@@ -1,0 +1,20 @@
+ResearchArea,Metric,Value,Unit
+Model versus market,Model log loss,0.985002,log loss
+Model versus market,Pinnacle closing log loss,0.952379,log loss
+Model versus market,Model relative log-loss disadvantage,3.42534,percent
+Chronological strategy,Selected bets,180.0,bets
+Chronological strategy,Net profit,11.6,units
+Chronological strategy,Observed ROI,6.44444,percent
+Chronological strategy,Maximum drawdown,26.38,units
+Chronological strategy,Bootstrap ROI lower bound,-25.27,percent
+Chronological strategy,Bootstrap ROI upper bound,40.25,percent
+Closing-line value,Pre-closing selected bets,215.0,bets
+Closing-line value,Mean price CLV,0.11,percent
+Closing-line value,Bets beating closing price,49.77,percent
+Closing-line value,Bootstrap CLV lower bound,-1.62,percent
+Closing-line value,Bootstrap CLV upper bound,1.91,percent
+Staking experiment,Flat-stake final bankroll,111.6,units
+Staking experiment,Quarter-Kelly final bankroll,114.044232,units
+Staking experiment,Half-Kelly final bankroll,96.719852,units
+Staking experiment,Quarter-Kelly maximum drawdown,40.2239,percent
+Staking experiment,Half-Kelly maximum drawdown,66.288,percent

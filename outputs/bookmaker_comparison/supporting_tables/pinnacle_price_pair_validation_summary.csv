@@ -1,0 +1,2 @@
+DetectedSourceObject,SourceRows,PairedFixtures,PairedOutcomePrices,IdenticalOutcomePricePercentage,NonIdenticalOutcomePricePercentage,IdenticalMarketTripletPercentage,InternalPricePairValidationPassed
+historical_market_data,3800,3800,11400,0.031140350877192982,0.968859649122807,0.0007894736842105263,True
