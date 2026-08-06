@@ -1,0 +1,8 @@
+Output,Rows,File
+Calibrated fixture probabilities,13680,calibrated_fixture_probabilities.csv
+Calibration fold metrics,36,calibration_fold_metrics.csv
+Model-method ranking,9,calibration_model_method_ranking.csv
+Calibrator diagnostics,72,calibrator_diagnostics.csv
+Baseline model metrics,5,baseline_model_metrics.csv
+Outcome calibration summary,15,baseline_outcome_calibration_summary.csv
+Final model selection,1,final_probability_model_selection.csv

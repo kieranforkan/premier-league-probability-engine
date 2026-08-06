@@ -1,0 +1,6 @@
+Model,ValidationLogLoss,TestLogLoss,ValidationRank,TestRank
+Tuned Independent Poisson,0.9206752768127688,0.9902980294816494,1,1
+Tuned Histogram Gradient Boosting,0.937378,0.995154,5,2
+Validation-Selected Ensemble,0.931185,0.996526,2,3
+Tuned Random Forest,0.936744,0.998788,4,4
+Tuned Logistic Regression,0.934551,1.004062,3,5

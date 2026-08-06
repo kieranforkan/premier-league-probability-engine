@@ -1,0 +1,4 @@
+Model,OriginalLogLoss,OriginalBrierScore
+Independent Poisson,0.964879412914884,0.5738997623230238
+Direct Probability Ensemble,0.9689015422843559,0.5755920257072487
+Tuned Random Forest,0.9710971406886705,0.5763999813118129

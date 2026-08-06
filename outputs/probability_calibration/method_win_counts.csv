@@ -1,0 +1,7 @@
+Model,WinningCalibrationMethod,SeasonsWon
+Direct Probability Ensemble,Original,3
+Direct Probability Ensemble,Sigmoid,1
+Independent Poisson,Original,3
+Independent Poisson,Sigmoid,1
+Tuned Random Forest,Original,3
+Tuned Random Forest,Sigmoid,1

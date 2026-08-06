@@ -1,0 +1,5 @@
+Fold,CalibrationTrainingStart,CalibrationTrainingEnd,CalibrationTrainingSeasons,TrainingForecastsPerModel,EvaluationSeason,EvaluationForecastsPerModel
+1,2020-21,2020-21,1,380,2021-22,380
+2,2020-21,2021-22,2,760,2022-23,380
+3,2020-21,2022-23,3,1140,2023-24,380
+4,2020-21,2023-24,4,1520,2024-25,380

@@ -1,0 +1,13 @@
+Fold,Model,EvaluationSeason,TrainingForecasts,EvaluationForecasts,TrainingHomeWins,TrainingDraws,TrainingAwayWins,EvaluationHomeWins,EvaluationDraws,EvaluationAwayWins
+1,Independent Poisson,2021-22,380,380,144,83,153,163,88,129
+1,Direct Probability Ensemble,2021-22,380,380,144,83,153,163,88,129
+1,Tuned Random Forest,2021-22,380,380,144,83,153,163,88,129
+2,Independent Poisson,2022-23,760,380,307,171,282,184,87,109
+2,Direct Probability Ensemble,2022-23,760,380,307,171,282,184,87,109
+2,Tuned Random Forest,2022-23,760,380,307,171,282,184,87,109
+3,Independent Poisson,2023-24,1140,380,491,258,391,175,82,123
+3,Direct Probability Ensemble,2023-24,1140,380,491,258,391,175,82,123
+3,Tuned Random Forest,2023-24,1140,380,491,258,391,175,82,123
+4,Independent Poisson,2024-25,1520,380,666,340,514,155,93,132
+4,Direct Probability Ensemble,2024-25,1520,380,666,340,514,155,93,132
+4,Tuned Random Forest,2024-25,1520,380,666,340,514,155,93,132

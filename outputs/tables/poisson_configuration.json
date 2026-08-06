@@ -1,0 +1,20 @@
+{
+  "training_seasons": [
+    "2015-16",
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "validation_season": "2023-24",
+  "test_season": "2024-25",
+  "home_alpha": 0.0,
+  "away_alpha": 0.001,
+  "maximum_modelled_goals": 10,
+  "feature_count": 70,
+  "validation_log_loss": 0.9206752768127688,
+  "test_log_loss": 0.9902980294816494
+}
