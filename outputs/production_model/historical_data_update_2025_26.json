@@ -1,0 +1,19 @@
+{
+    "SeasonAdded": "2025-26",
+    "SourceURL": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+    "FixturesAdded": 380,
+    "TotalFixturesAfterUpdate": 4180,
+    "TotalSeasonsAfterUpdate": 11,
+    "NewTeamsRelativeTo2024_25": [
+        "Burnley",
+        "Leeds",
+        "Sunderland"
+    ],
+    "DepartedTeamsRelativeTo2024_25": [
+        "Ipswich",
+        "Leicester",
+        "Southampton"
+    ],
+    "RawSeasonFile": "data/raw/premier_league_2025_26.csv",
+    "ExtendedTargetFile": "data/raw/premier_league_goal_targets_2015_16_to_2025_26.csv"
+}

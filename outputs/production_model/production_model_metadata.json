@@ -1,0 +1,86 @@
+{
+    "ArtifactVersion": "production-refit-2026-27-v1",
+    "CreatedUTC": "2026-08-08T22:46:28.121503+00:00",
+    "RepositoryCommit": "f9b4099b66c199358eccad0e70e66255a6b5437d",
+    "SelectedModel": "Independent Poisson",
+    "ModelFamily": "Independent Poisson regression",
+    "CalibrationMethod": "Original probabilities",
+    "BookmakerOddsUsedAsPredictors": false,
+    "ProbabilityOrder": [
+        "H",
+        "D",
+        "A"
+    ],
+    "RequiredPredictionOutputs": [
+        "HomeExpectedGoals",
+        "AwayExpectedGoals",
+        "Probability_H",
+        "Probability_D",
+        "Probability_A"
+    ],
+    "TrainingData": {
+        "Fixtures": 4180,
+        "Seasons": 11,
+        "FirstSeason": "2015-16",
+        "LastSeason": "2025-26",
+        "StartDate": "2015-08-08",
+        "CutoffDate": "2026-05-24"
+    },
+    "FeatureSpecification": {
+        "FrozenFeatureCount": 70,
+        "HomeNumericalRank": 55,
+        "HomePredictorCount": 55,
+        "AwayPredictorCount": 70,
+        "HomeDependentColumns": [
+            "AwayRollingGoalDifference5",
+            "HomeVenueRollingGoalDifference5",
+            "HomeRestDays",
+            "HomeShortRest3",
+            "HomeMatchesLast14Days",
+            "AwayMatchesLast7Days",
+            "EloDifference",
+            "GoalDifferenceFormDifference5",
+            "AwayMatchWeek",
+            "HomeMatchWeek",
+            "HomeSeasonProgress",
+            "AwaySeasonProgress",
+            "MatchesPlayedDifference",
+            "HomePointsBefore",
+            "GoalDifferenceDifference"
+        ]
+    },
+    "HomePoisson": {
+        "Alpha": 0.0,
+        "Solver": "newton-cholesky",
+        "MaxIter": 5000,
+        "Tolerance": 1e-08,
+        "IterationsUsed": 13
+    },
+    "AwayPoisson": {
+        "Alpha": 0.001,
+        "Solver": "lbfgs",
+        "MaxIter": 5000,
+        "Tolerance": 1e-08,
+        "IterationsUsed": 582
+    },
+    "ScorelineSpecification": {
+        "MaximumModelledGoals": 10,
+        "MinimumExpectedGoals": 1e-06,
+        "CapturedMassRenormalised": true
+    },
+    "Software": {
+        "Python": "3.14.6",
+        "NumPy": "2.5.0",
+        "pandas": "3.0.3",
+        "SciPy": "1.18.0",
+        "scikit-learn": "1.9.0",
+        "joblib": "1.5.3"
+    },
+    "ExportedFiles": {
+        "ModelBundle": "outputs/production_model/production_model_bundle.joblib",
+        "ImplementationManifest": "outputs/production_model/validated_implementation_manifest.json",
+        "FeatureSchema": "outputs/production_model/validated_feature_schema.csv",
+        "ReferenceInputs": "outputs/production_model/production_reference_inputs.csv",
+        "ReferencePredictions": "outputs/production_model/production_reference_predictions.csv"
+    }
+}

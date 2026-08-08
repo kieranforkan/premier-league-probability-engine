@@ -1,0 +1,8 @@
+{
+    "outputs/production_model/production_model_bundle.joblib": "2841f4fdafd99c64ecf13d88448191d182bdd9997036f009c51083e609f50a24",
+    "outputs/production_model/production_model_metadata.json": "802d319ad40c6ef3f3000d4cfdef1103e4c9f107565e9ddbf5eb5958c2bd6dca",
+    "outputs/production_model/validated_implementation_manifest.json": "49f22cb118d25bc27b0421762df521645b3439bc14fe575c6a4c2599ae8cd7fb",
+    "outputs/production_model/validated_feature_schema.csv": "242009df08211db64b8ebea42226271d1eb2d12bd12eef6948b6c248104dafc3",
+    "outputs/production_model/production_reference_inputs.csv": "28e23966edbee06c6231000e68e8fd720968e390ccb1f5728ec8de5d787f4cae",
+    "outputs/production_model/production_reference_predictions.csv": "c221cf10ec5d252e275f342b1a776ec2688507c52e389201498bd8321eb7d31f"
+}
