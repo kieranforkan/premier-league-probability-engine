@@ -1,0 +1,11 @@
+FixtureNumber,Season,Date,Time,Kickoff,OfficialHomeTeam,OfficialAwayTeam,HomeTeam,AwayTeam,TimeSource,SourceOrder,NextForBothClubs
+1,2026-27,2026-08-21,20:00,2026-08-21 20:00:00,Arsenal,Coventry City,Arsenal,Coventry,Explicit in official schedule,1,True
+2,2026-27,2026-08-22,12:30,2026-08-22 12:30:00,Hull City,Manchester United,Hull,Man United,Explicit in official schedule,2,True
+3,2026-27,2026-08-22,15:00,2026-08-22 15:00:00,Everton,Crystal Palace,Everton,Crystal Palace,Default stated by official schedule,3,True
+4,2026-27,2026-08-22,15:00,2026-08-22 15:00:00,Ipswich Town,Sunderland,Ipswich,Sunderland,Default stated by official schedule,4,True
+5,2026-27,2026-08-22,15:00,2026-08-22 15:00:00,Nottingham Forest,Leeds United,Nott'm Forest,Leeds,Default stated by official schedule,5,True
+6,2026-27,2026-08-22,17:30,2026-08-22 17:30:00,Brentford,Tottenham Hotspur,Brentford,Tottenham,Explicit in official schedule,6,True
+7,2026-27,2026-08-23,14:00,2026-08-23 14:00:00,Brighton & Hove Albion,Aston Villa,Brighton,Aston Villa,Explicit in official schedule,7,True
+8,2026-27,2026-08-23,14:00,2026-08-23 14:00:00,Manchester City,AFC Bournemouth,Man City,Bournemouth,Explicit in official schedule,8,True
+9,2026-27,2026-08-23,16:30,2026-08-23 16:30:00,Newcastle United,Liverpool,Newcastle,Liverpool,Explicit in official schedule,9,True
+10,2026-27,2026-08-24,20:00,2026-08-24 20:00:00,Fulham,Chelsea,Fulham,Chelsea,Explicit in official schedule,10,True

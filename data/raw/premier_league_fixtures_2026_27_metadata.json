@@ -1,0 +1,24 @@
+{
+    "Season": "2026-27",
+    "Source": "Premier League official fixture article",
+    "SourceURL": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season",
+    "RetrievedUTC": "2026-08-09T00:48:27.374301+00:00",
+    "FixtureCount": 380,
+    "TeamCount": 20,
+    "FirstFixtureDate": "2026-08-21",
+    "LastFixtureDate": "2027-05-30",
+    "NewTeamsVs2025_26": [
+        "Coventry",
+        "Hull",
+        "Ipswich"
+    ],
+    "DepartedTeamsVs2025_26": [
+        "Burnley",
+        "West Ham",
+        "Wolves"
+    ],
+    "TeamsNeverSeenInTraining": [
+        "Coventry"
+    ],
+    "ScheduleStatus": "Official schedule; fixtures remain subject to change"
+}

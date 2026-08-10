@@ -1,0 +1,34 @@
+{
+    "Season": "2026-27",
+    "ProtocolVersion": "2026-27-sequential-v1",
+    "FrozenModelArtifact": "outputs/production_model/production_model_bundle.joblib",
+    "CanonicalFixtureSchedule": "data/raw/premier_league_fixtures_2026_27_official.csv",
+    "CurrentSeasonResults": "data/raw/premier_league_results_2026_27.csv",
+    "FrozenFeatureCount": 70,
+    "ProbabilityOrder": [
+        "H",
+        "D",
+        "A"
+    ],
+    "Rules": [
+        "Only completed 2026-27 league matches may update the production feature state.",
+        "Current-season results must match the canonical fixture identity before use.",
+        "For every target fixture, all dynamic features must be calculated from information available strictly before that fixture.",
+        "Elo must be updated only after a completed match and the pre-update rating must be used for that match's prediction.",
+        "Rolling-form and venue-form windows must use completed previous matches only.",
+        "League-table variables must describe the pre-match table state and must not contain the target fixture result.",
+        "The fitted imputer, scaler and Poisson estimators remain frozen throughout 2026-27.",
+        "If a fixture is postponed or rescheduled, the canonical schedule must be refreshed before its production forecast is generated."
+    ],
+    "OperationalSequence": [
+        "Refresh official fixture schedule if required.",
+        "Append newly completed league results.",
+        "Validate completed results against schedule.",
+        "Reconstruct the current pre-match feature state.",
+        "Identify each club's next unplayed fixture.",
+        "Generate predictions using frozen production artefacts.",
+        "Optionally refresh current bookmaker prices.",
+        "Export a timestamped forecast snapshot."
+    ],
+    "Interpretation": "Future forecasts are sequential pre-match probabilities, not unconditional predictions made before the season."
+}
