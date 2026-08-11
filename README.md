@@ -62,9 +62,9 @@ The objective of the project is to answer a simple question:
 
 Rather than predicting only the most likely result, the system produces a complete probability distribution:
 
-\[
+$
 P(H),\quad P(D),\quad P(A)
-\]
+$
 
 where:
 
@@ -331,35 +331,35 @@ The choice was therefore based on the overall balance of evidence rather than a 
 
 The model estimates two expected-goal parameters:
 
-\[
+$
 \lambda_H
-\]
+$
 
 for the home team and
 
-\[
+$
 \lambda_A
-\]
+$
 
 for the away team.
 
 Goals are modelled as:
 
-\[
+$
 X_H \sim \text{Poisson}(\lambda_H)
-\]
+$
 
-\[
+$
 X_A \sim \text{Poisson}(\lambda_A)
-\]
+$
 
 For each possible scoreline:
 
-\[
+$
 P(X_H=i, X_A=j)
 =
 P(X_H=i)P(X_A=j)
-\]
+$
 
 The production implementation evaluates scorelines from:
 
@@ -371,32 +371,32 @@ through
 
 The scoreline probabilities are then aggregated into:
 
-\[
+$
 P(H)
 =
 \sum_{i>j}
 P(X_H=i,X_A=j)
-\]
+$
 
-\[
+$
 P(D)
 =
 \sum_{i=j}
 P(X_H=i,X_A=j)
-\]
+$
 
-\[
+$
 P(A)
 =
 \sum_{i<j}
 P(X_H=i,X_A=j)
-\]
+$
 
 The resulting probabilities are renormalised to ensure:
 
-\[
+$
 P(H)+P(D)+P(A)=1
-\]
+$
 
 ---
 
@@ -447,17 +447,17 @@ Instead, market probabilities are treated as an external benchmark against which
 
 For current fixtures, bookmaker decimal odds can be converted into implied probabilities:
 
-\[
+$
 q_i = \frac{1}{\text{odds}_i}
-\]
+$
 
 Because bookmaker probabilities typically sum to more than 1, the quoted market margin is removed using proportional normalisation:
 
-\[
+$
 p_i^{market}
 =
 \frac{q_i}{\sum_j q_j}
-\]
+$
 
 This produces a comparable market probability distribution.
 
@@ -465,7 +465,7 @@ Model-market disagreement can then be measured.
 
 One metric used in the project is **Total Variation Distance**:
 
-\[
+$
 TV
 =
 \frac{1}{2}
@@ -475,7 +475,7 @@ p_i^{model}
 -
 p_i^{market}
 \right|
-\]
+$
 
 A larger value represents greater disagreement between the complete model and market probability distributions.
 
