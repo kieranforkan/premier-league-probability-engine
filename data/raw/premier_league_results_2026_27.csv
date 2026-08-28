@@ -1,1 +1,11 @@
 FixtureNumber,ActualKickoff,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+1,2026-08-21 20:00:00,Arsenal,Coventry,3,0,H
+2,2026-08-22 12:30:00,Hull,Man United,2,0,H
+3,2026-08-22 15:00:00,Everton,Crystal Palace,2,0,H
+4,2026-08-22 15:00:00,Ipswich,Sunderland,2,1,H
+5,2026-08-22 15:00:00,Nott'm Forest,Leeds,0,1,A
+6,2026-08-22 17:30:00,Brentford,Tottenham,3,0,H
+7,2026-08-23 14:00:00,Brighton,Aston Villa,4,0,H
+8,2026-08-23 14:00:00,Man City,Bournemouth,2,1,H
+9,2026-08-23 16:30:00,Newcastle,Liverpool,2,2,D
+10,2026-08-24 20:00:00,Fulham,Chelsea,2,3,A
